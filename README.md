@@ -1,5 +1,13 @@
 # Receipt-Processor
 
+The application is built using Django framework and the api endpoints can be seen in views.py.
+The application is containerized using docker and the image is pushed to the Docker Hub.
+In order to run the application follow the below steps - 
+1. Open docker application.
+2. In a terminal pull the docker image using command - docker pull priyadevoor/django-docker:latest
+3. Now run the image using the command - docker run -p 8000:8000 priyadevoor/django-docker:latest
+
+
 ![image](https://github.com/user-attachments/assets/326d54b7-3c0a-4715-b08c-749ca434142d)
 
 The docker image is running and it will host the application in localhost in port 8000. Open it in any web browser and the below page will be visible.
